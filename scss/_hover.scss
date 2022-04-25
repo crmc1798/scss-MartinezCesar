@@ -1,0 +1,21 @@
+$ColorBHover:#4d4c4c;
+$ColorPHover:#ffffff;
+
+.nav-link{
+    p:hover{
+        background-color: $ColorBHover; 
+        color: $ColorPHover;
+        padding: 3px;
+        transform: scale(1.1); 
+        transition-duration: 500ms;   
+    }
+}
+
+.btn:hover{
+    background-color: $ColorBHover; 
+        color: $ColorPHover;
+    transform: scale(1.1); 
+    transition-duration: 500ms;
+
+}
+

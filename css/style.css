@@ -1,0 +1,66 @@
+h1 {
+  color: #000000;
+}
+
+h2 {
+  color: #000000;
+}
+
+h3 {
+  color: #000000;
+}
+
+h4 {
+  color: #000000;
+}
+
+h5 {
+  color: #000000;
+}
+
+h6 {
+  color: #585858;
+}
+
+header {
+  background-color: #e7e7e7;
+}
+
+footer {
+  background-color: #e7e7e7;
+}
+
+section {
+  background-color: #ffffff;
+}
+
+.card {
+  background-color: #fefefe;
+}
+
+.btn {
+  background-color: #e7e7e7;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link p:hover {
+  background-color: #4d4c4c;
+  color: #ffffff;
+  padding: 3px;
+  transform: scale(1.1);
+  transition-duration: 500ms;
+}
+
+.btn:hover {
+  background-color: #4d4c4c;
+  color: #ffffff;
+  transform: scale(1.1);
+  transition-duration: 500ms;
+}
+
+/*# sourceMappingURL=style.css.map */

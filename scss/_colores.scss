@@ -1,0 +1,65 @@
+$ColorP:#636363;
+$Colorh1:#000000;
+$Colorh2:#000000;
+$Colorh3:#000000;
+$Colorh4:#000000;
+$Colorh5:#000000;
+$Colorh6:#585858;
+
+$ColorFHeader:#e7e7e7;
+$ColorFFooter:#e7e7e7;
+$ColorFContenido:#ffffff;
+$ColorFCards:#fefefe;
+
+$ColorM:#282828;
+$ColorB:#e7e7e7;
+
+
+h1{
+    color: $Colorh1;
+}
+
+
+h2{
+    color: $Colorh2;
+}
+
+
+h3{
+    color: $Colorh3;
+}
+
+
+h4{
+    color: $Colorh4;
+}
+
+
+h5{
+    color: $Colorh5;
+}
+
+
+h6{
+    color: $Colorh6;
+}
+
+header{
+    background-color: $ColorFHeader;
+}
+
+footer{
+    background-color: $ColorFFooter;
+}
+
+section{
+    background-color: $ColorFContenido;
+}
+
+.card{
+    background-color: $ColorFCards;
+}
+
+.btn{
+    background-color: $ColorB;
+}
