@@ -1,3 +1,13 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #636363;
+}
+
 h1 {
   color: #000000;
 }
@@ -38,14 +48,24 @@ section {
   background-color: #fefefe;
 }
 
-.btn {
+.btn-descargar, .btn-enviar {
   background-color: #e7e7e7;
+  width: auto;
 }
 
-* {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
+.ContenedorCards {
+  height: auto;
+  width: 80%;
+}
+
+.ContenedorTarjetaF {
+  height: auto;
+  width: 22rem;
+}
+
+.ContenedorTarjetaA {
+  height: auto;
+  width: 25rem;
 }
 
 .nav-link p:hover {

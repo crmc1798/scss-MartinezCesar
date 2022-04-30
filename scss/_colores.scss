@@ -1,65 +1,72 @@
-$ColorP:#636363;
-$Colorh1:#000000;
-$Colorh2:#000000;
-$Colorh3:#000000;
-$Colorh4:#000000;
-$Colorh5:#000000;
-$Colorh6:#585858;
+$Colores: (
+    ColorP:#636363,
+    Colorh1:#000000,
+    Colorh2:#000000,
+    Colorh3:#000000,
+    Colorh4:#000000,
+    Colorh5:#000000,
+    Colorh6:#585858,
+    ColorHeader:#e7e7e7,
+    ColorFooter:#e7e7e7,
+    ColorFContenido:#ffffff,
+    ColorFCards:#fefefe,
+    ColorM:#282828,
+    ColorB:#e7e7e7
+);
 
-$ColorFHeader:#e7e7e7;
-$ColorFFooter:#e7e7e7;
-$ColorFContenido:#ffffff;
-$ColorFCards:#fefefe;
-
-$ColorM:#282828;
-$ColorB:#e7e7e7;
-
-
-h1{
-    color: $Colorh1;
+p {
+    color: map-get($Colores, ColorP);
 }
 
+h1 {
+    color: map-get($Colores, Colorh1);
+}
 
 h2{
-    color: $Colorh2;
+    color: map-get($Colores, Colorh2);
 }
 
 
 h3{
-    color: $Colorh3;
+    color: map-get($Colores, Colorh3);
 }
 
 
 h4{
-    color: $Colorh4;
+    color: map-get($Colores, Colorh4);
 }
 
 
 h5{
-    color: $Colorh5;
+    color: map-get($Colores, Colorh5);
 }
 
 
 h6{
-    color: $Colorh6;
+    color: map-get($Colores, Colorh6);
 }
 
 header{
-    background-color: $ColorFHeader;
+    background-color: map-get($Colores, ColorHeader);
 }
 
 footer{
-    background-color: $ColorFFooter;
+    background-color: map-get($Colores, ColorFooter);
 }
 
 section{
-    background-color: $ColorFContenido;
+    background-color: map-get($Colores, ColorFContenido);
 }
 
 .card{
-    background-color: $ColorFCards;
+    background-color: map-get($Colores, ColorFCards);
 }
 
-.btn{
-    background-color: $ColorB;
+.btn-descargar{
+    background-color: map-get($Colores, ColorB);
+    width: auto;
+}
+
+.btn-enviar{
+    @extend .btn-descargar;
 }
