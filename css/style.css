@@ -65,7 +65,7 @@ section {
 
 .ContenedorTarjetaA {
   height: auto;
-  width: 25rem;
+  width: 22rem;
 }
 
 .nav-link p:hover {
@@ -79,6 +79,11 @@ section {
 .btn:hover {
   background-color: #4d4c4c;
   color: #ffffff;
+  transform: scale(1.1);
+  transition-duration: 500ms;
+}
+
+.card:hover {
   transform: scale(1.1);
   transition-duration: 500ms;
 }
