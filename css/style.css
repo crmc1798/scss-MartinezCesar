@@ -60,12 +60,12 @@ section {
 
 .ContenedorTarjetaF {
   height: auto;
-  width: 22rem;
+  width: 40%;
 }
 
 .ContenedorTarjetaA {
   height: auto;
-  width: 22rem;
+  width: 40%;
 }
 
 .card:hover, .btn:hover, .nav-link p:hover {
